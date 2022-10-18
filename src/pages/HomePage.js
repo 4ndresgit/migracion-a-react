@@ -1,10 +1,10 @@
 import React from "react";
-import '../styles/components/pages/HomePage.css';
-
+import "../styles/components/pages/HomePage.css";
+import { Link } from "react-router-dom";
 
 const HomePage = (props) => {
-    return (
-        <section className="knowledge">
+  return (
+    <section className="knowledge">
       <div className="knowledge__container container">
         <div className="knowledge__texts">
           <h2 className="subtitle">Fijate en algo...</h2>
@@ -19,16 +19,18 @@ const HomePage = (props) => {
             ofrecer, incluidos los de raza pura. ¡Lo único que queda por hacer
             es ponerse a buscar!
           </p>
-          <a href="servicios.html" className="cta">Que esperas para conocer mas!</a>
+          <Link to="ServiciosPage" className="cta">
+            Que esperas para conocer mas!
+          </Link>
         </div>
         <img
           src="./img/Home/home2.jpg"
           alt="imagen home"
           className="knowledge__img"
-        />
+        ></img>
       </div>
     </section>
-    );
-}
+  );
+};
 
 export default HomePage;

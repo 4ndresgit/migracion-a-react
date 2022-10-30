@@ -9,8 +9,10 @@ const ContactoPage = (props) => {
         <form className="form">
           <h2 className="form__title">Inicia Sesión</h2>
           <p className="form__paragraph">
-            ¿Aún no tienes una cuenta? <Link to="#" className="form__link" />
-            Entra aquí
+            ¿Aún no tienes una cuenta?{" "}
+            <Link to="#" className="form__link">
+              Entra aquí
+            </Link>
           </p>
 
           <div className="form__container">
@@ -81,7 +83,7 @@ const ContactoPage = (props) => {
               action="https://formspree.io/f/mknkkrkj"
               method="POST"
             >
-              <h2 className="footer__newsletter">Suscribete a la newsletter</h2>
+              <h2 className="footer__newsletter">Suscribete a la Newsletter</h2>
               <div className="footer__inputs">
                 <input
                   type="email"

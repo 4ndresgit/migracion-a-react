@@ -16,8 +16,7 @@ const HomePage = (props) => {
             amigo. Los perros que vas a ver están en busca de un hogar para
             siempre y un amor sin fin. Que podria ser mas perfecto? Es asombrosa
             la cantidad de perros que necesitan exactamente lo que tienes para
-            ofrecer, incluidos los de raza pura. ¡Lo único que queda por hacer
-            es ponerse a buscar!
+            ofrecer... ¡Lo único que queda por hacer es ponerse a buscar!
           </p>
           <Link to="ServiciosPage" className="cta">
             Que esperas para conocer mas!
@@ -27,7 +26,7 @@ const HomePage = (props) => {
           src="./img/Home/home2.jpg"
           alt="imagen home"
           className="knowledge__img"
-        ></img>
+        />
       </div>
     </section>
   );

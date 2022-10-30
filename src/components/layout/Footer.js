@@ -30,7 +30,6 @@ const Footer = (props) => {
               </Link>
             </li>
           </ul>
-          n
         </nav>
 
         <form

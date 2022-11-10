@@ -1,38 +1,45 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+html,
+
+:root 
+{
     --padding-container: 100px 0;
     --color-title: #001a49;
 }
 
-body {
+body
+{
+    background-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: var(--padding-container)
-}
+ /*---------- NAV----------*/
 
-/*---------- NAV----------*/
-
-.nav {
+ .nav 
+ {
     --padding-container: 0;
     height: 100%;
     display: flex;
     align-items: center;
+    
 }
 
-.nav__title {
+.nav__title 
+{
     font-weight: 300;
 }
 
-.nav__items {
+.nav__items
+{
     list-style: none;
 }
 
-.nav__link {
+.nav__link
+ {
     margin-left: auto;
     padding: 0;
     display: grid;
@@ -41,114 +48,124 @@ body {
     gap: 2em;
 }
 
-.nav__links {
-    color: #ffffff;
+.nav__links-top 
+{
+    color: #000;
     text-decoration: none;
 }
 
-.nav__menu {
+.nav__links 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav__menu 
+{
     margin-left: auto;
     cursor: pointer;
     display: none;
 }
 
-.nav__img {
+.nav__img
+ {
     display: block;
     width: 30;
 }
 
-.nav__close {
+.nav__close 
+{
     display: var(--show, none);
 }
+ 
+/* ---------FOOTER---------- */
 
-/* ----------FOOTER---------- */
-
-.footer {
-    background-color: #1D293F;
-    position: absolute;
-    width: 95%;
-}
-
-.footer__title {
-    font-weight: 300;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
-.footer__title,
-.footer__newsletter {
-    color: #fff;
-}
-
-
-.footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 20px;
-}
-
-.nav--footer {
-    padding-bottom: 10px;
-    display: grid;
-    gap: 1em;
-    grid-auto-flow: row;
-    height: 100%;
-}
-
-.nav__link--footer {
-    display: flex;
-    margin: 0;
-    margin-right: 10px;
-    flex-wrap: wrap;
-}
-
-.footer__inputs {
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.footer__input {
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-.footer__submit {
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px;
-    background-color: #2091F9;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.footer__copy {
-    --padding-container: 30px 0;
-    text-align: center;
-    color: #fff;
-}
-
-.footer__copyright {
-    font-weight: 200;
-}
-
-.footer__icons {
-    margin-bottom: 10px;
-}
-
-.footer__img {
-    width: 20px;
-}
+ .footer
+  {
+     background-color: #1D293F;
+     height: 400px;
+ }
+ .footer__title 
+ {
+     font-weight: 300;
+     font-size: 2rem;
+     margin-bottom: 20px;
+ }
+ .footer__title,
+ .footer__newsletter 
+ {
+     color: #fff;
+ }
+ .footer__container 
+ {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid #fff;
+     padding-bottom: 20px;
+ }
+ .nav--footer
+ {
+     padding-bottom: 10px;
+     display: grid;
+     gap: 1em;
+     grid-auto-flow: row;
+     height: 100%;
+ }
+ .nav__link--footer
+  {
+     display: flex;
+     margin: 0;
+     margin-right: 20px;
+     flex-wrap: wrap;
+ }
+ .footer__inputs
+  {
+     margin-top: 10px;
+     display: flex;
+     overflow: hidden;
+ }
+ .footer__input
+  {
+     background-color: #fff;
+     height: 50px;
+     display: block;
+     padding-left: 10px;
+     border-radius: 6px;
+     font-size: 1rem;
+     outline: none;
+     border: none;
+     margin-right: 16px;
+ }
+ .footer__submit 
+ {
+     margin-left: auto;
+     display: inline-block;
+     height: 50px;
+     padding: 0 20px;
+     background-color: #3866f2;
+     border: none;
+     font-size: 1rem;
+     color: #fff;
+     border-radius: 6px;
+     cursor: pointer;
+ }
+ .footer__copy 
+ {
+     --padding-container: 30px 0;
+     text-align: center;
+     color: #fff;
+ }
+ .footer__copyright
+  {
+     font-weight: 300;
+ }
+ .footer__icons
+  {
+     margin-bottom: 10px;
+ }
+ .footer__img
+  {
+     width: 30px;
+     height: 30px;
+ }

@@ -1,26 +1,31 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./components/layout/Footer";
-import HomePage from "./pages/HomePage";
-import ContactoPage from "./pages/ContactoPage";
-import GaleriaPage from "./pages/GaleriaPage";
-import NosotrosPage from "./pages/NosotrosPage";
-import Header from "./components/layout/Header/Header.js";
+
+import Header from "./components/layout/Header.js";
+import Footer from "./components/layout/Footer.js";
+import Nav from "./components/layout/Nav.js";
+
+import HomePage from "./pages/HomePage.js";
+import ContactoPage from "./pages/ContactoPage.js";
+import GaleriaPage from "./pages/GaleriaPage.js";
+import NosotrosPage from "./pages/NosotrosPage.js";
 
 function App() {
   // return('hola')
   return (
     <div className="App">
+      <Header />
+
       <BrowserRouter>
-        <Header />
+        <Nav />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contacto" element={<ContactoPage />} />
-          <Route path="/galeria" element={<GaleriaPage />} />
-          <Route path="/nosotros" element={<NosotrosPage />} />
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="contacto" element={<ContactoPage />} />
+          <Route exact path="galeria" element={<GaleriaPage />} />
+          <Route exact path="nosotros" element={<NosotrosPage />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
+
+      <Footer />
     </div>
   );
 }

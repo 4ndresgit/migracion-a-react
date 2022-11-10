@@ -55,7 +55,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro02.jpeg" alt="Perro Simon" />
@@ -64,7 +64,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro03.jpeg" alt="Perro Juana" />
@@ -73,7 +73,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro04.jpeg" alt="Perro Princesa" />
@@ -82,7 +82,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro05.jpeg" alt="Perro Koda" />
@@ -91,7 +91,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro06.jpeg" alt="Perro Luna" />
@@ -100,7 +100,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro07.jpeg" alt="Perro Lucas" />
@@ -109,7 +109,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro08.jpeg" alt="Perro Lazaro" />
@@ -118,7 +118,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro09.jpeg" alt="Perro Babita" />
@@ -127,7 +127,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro10.jpeg" alt="Perro Lovi" />
@@ -136,7 +136,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
             <div className="card">
               <img src="img/galeria/perro11.jpeg" alt="Perro Caty" />
@@ -145,7 +145,7 @@ const GaleriaPage = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel,
                 excepturi unde?
               </p>
-              <a href="#">Leer más</a>
+              <Link to="#">Leer más</Link>
             </div>
           </div>
         </section>
